@@ -1,0 +1,20 @@
+table, th, td {
+    border: 1px solid black;
+  }
+
+   /* input[required=required]:after,
+   input[required]:after,
+ select[required=required]:after,
+ textarea[required=required]:after
+{
+    color: red;
+    content: " *";
+} */
+
+
+.required:after
+{
+    color: red;
+    content: " *";
+
+}
